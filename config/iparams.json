@@ -1,0 +1,21 @@
+{
+  "freshdesk_subdomain": {
+    "display_name": "freshdesk_subdomain",
+    "description": "Please enter your freshdesk_subdomain",
+    "type": "domain",
+    "required": true,
+    "type_attributes": {
+      "product": "freshdesk"
+    }
+  },
+  "freshdesk_api_key": {
+    "display_name": "freshdesk_api_key",
+    "description": "Please enter your freshdesk_api_key",
+    "type": "api_key",
+    "required": true,
+    "type_attributes": {
+      "product": "freshdesk"
+    },
+    "secure": true
+  }
+}

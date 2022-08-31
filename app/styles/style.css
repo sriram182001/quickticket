@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+  font-family:Impact;
+}
+.btn{
+  background-color: rgb(90, 255, 15);
+  color: black;
+  margin-left: 30%;
+}
+#apptext{
+  text-align: center;
+  font-family: cursive;
+}
+
+*,
+*:after,
+*::before {
+  box-sizing: inherit;
+}
+
+.main {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
